@@ -1,8 +1,8 @@
 # FILE NAME - inches_to_feet.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Andrew Gellatly
+# DATE: 2/18/2025
+# BRIEF DESCRIPTION:  A program that converts inches to feet.
 
 
 
@@ -20,14 +20,12 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
     
+inches = int(input('Enter the number of inches: '))
+feet = inches // 12
+feetR = inches % 12
     
-    
-    
-    
-    
-    
-    
-    
+print()
+print(f'{inches} inches is {feet} feet, and {feetR} inches')
     
 ########### END YER CODE ABOVE THIS LINE ###########
 
@@ -68,7 +66,7 @@ Enter the number of inches: 100
 
 1. What does it mean to "cast" input from the user?
 
-
+It means to convert user input from one data type to another.
 
 
 
